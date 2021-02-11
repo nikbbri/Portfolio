@@ -1,0 +1,208 @@
+.mediaViewInfo {
+    --web-view-name: About_Me;
+    --web-view-id: About_Me;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+:root {
+    --web-view-ids: About_Me;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body
+{
+    transform: scale(.45);
+    transform-origin: 5cm;
+}
+
+#About_Me {
+    position: absolute;
+    width: 2471px;
+    height: 3307px;
+    background-color: rgba(255,255,255,1);
+    overflow: hidden;
+    --web-view-name: About_Me;
+    --web-view-id: About_Me;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+#Footer {
+    position: absolute;
+    width: 868px;
+    height: 83px;
+    left: 1502px;
+    top: 3136px;
+    overflow: visible;
+}
+#Linkedin {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 270px;
+    white-space: wrap;
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 70px;
+    color: rgba(0,0,0,1);
+}
+#Work_ {
+    left: 336px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 175px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 70px;
+    color: rgba(0,0,0,1);
+}
+#Contact {
+    left: 510px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 359px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 70px;
+    color: rgba(0,0,0,1);
+}
+#About_Body {
+    position: absolute;
+    width: 2204px;
+    height: 2416px;
+    left: 127px;
+    top: 460px;
+    overflow: visible;
+}
+#Headshot {
+    position: absolute;
+    width: 983px;
+    height: 586px;
+    left: 1221px;
+    top: 608px;
+    overflow: visible;
+}
+#Open_for_work_status {
+    left: 1300px;
+    top: 1278px;
+    position: absolute;
+    overflow: visible;
+    width: 835px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 50px;
+    color: rgba(113,150,96,0.694);
+}
+#About_info {
+    left: 23px;
+    top: 607px;
+    position: absolute;
+    overflow: visible;
+    width: 1087px;
+    white-space: wrap;
+    line-height: 70px;
+    margin-top: -10px;
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 50px;
+    color: rgba(0,0,0,1);
+    letter-spacing: 0.2px;
+}
+#Heading {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: hidden;
+    width: 1902px;
+    height: 210px;
+    text-align: left;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 210px;
+    color: rgba(0,0,0,1);
+    letter-spacing: -1px;
+}
+#Header {
+    position: absolute;
+    width: 2200px;
+    height: 119px;
+    left: 100px;
+    top: 200px;
+    overflow: visible;
+}
+#NF {
+    opacity: 0.601;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 113px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+    letter-spacing: -1px;
+}
+#Work {
+    opacity: 0.601;
+    left: 2010px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 191px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+    letter-spacing: -1px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgba(0,0,0,1);
+}
+#About {
+    left: 1686px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 215px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+    letter-spacing: -1px;
+}
+
+

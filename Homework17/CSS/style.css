@@ -1,0 +1,197 @@
+.mediaViewInfo {
+    --web-view-name: Homepage;
+    --web-view-id: Homepage;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+:root {
+    --web-view-ids: Homepage;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body
+{
+    transform: scale(.25);
+    transform-origin: 0cm;
+}
+
+#Homepage {
+    position: absolute;
+    width: 4217px;
+    height: 3290px;
+    background-color: rgba(255,255,255,1);
+    overflow: hidden;
+    --web-view-name: Homepage;
+    --web-view-id: Homepage;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+#Footer {
+    position: absolute;
+    width: 1189px;
+    height: 118px;
+    left: 2859px;
+    top: 2946px;
+    overflow: visible;
+}
+#LinkedIn {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 355px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#Resume {
+    left: 409px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 368px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#Contact {
+    left: 831px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 359px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#Landing_Page_Text {
+    position: absolute;
+    width: 3607px;
+    height: 1199px;
+    left: 298px;
+    top: 850px;
+    overflow: visible;
+}
+#Nicole_Fabbri {
+    left: 0px;
+    top: 332px;
+    position: absolute;
+    overflow: hidden;
+    width: 1346px;
+    height: 356px;
+    text-align: left;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 300px;
+    color: rgba(0,0,0,1);
+    letter-spacing: -1px;
+}
+#a_UXUI_freelance_designer_with {
+    left: 15px;
+    top: 841px;
+    position: absolute;
+    overflow: visible;
+    width: 3593px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 150px;
+    color: rgba(0,0,0,1);
+}
+#hi_Im {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 441px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 150px;
+    color: rgba(0,0,0,1);
+}
+#Header {
+    position: absolute;
+    width: 3756px;
+    height: 119px;
+    left: 244px;
+    top: 200px;
+    overflow: visible;
+}
+#NF {
+    opacity: 0.601;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 113px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+    letter-spacing: -1px;
+}
+#About {
+    opacity: 0.601;
+    left: 3242px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 215px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+    letter-spacing: -1px;
+}
+#Work_ {
+    left: 3556px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 201px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+    letter-spacing: -1px;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(0,0,0,1);
+}
+
+
+
