@@ -1,3 +1,13 @@
+body
+{
+    transform: scale(.30);
+    transform-origin: 0cm;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(0,0,0,1);
+}
 .mediaViewInfo {
     --web-view-name: Homepage;
     --web-view-id: Homepage;
@@ -13,73 +23,16 @@
     box-sizing: border-box;
     border: none;
 }
-
-body
-{
-    transform: scale(.25);
-    transform-origin: 0cm;
-}
-
 #Homepage {
     position: absolute;
-    width: 4217px;
-    height: 3290px;
+    width: 4213px;
+    height: 12898px;
     background-color: rgba(255,255,255,1);
     overflow: hidden;
     --web-view-name: Homepage;
     --web-view-id: Homepage;
     --web-scale-on-resize: true;
     --web-enable-deep-linking: true;
-}
-#Footer {
-    position: absolute;
-    width: 1189px;
-    height: 118px;
-    left: 2859px;
-    top: 2946px;
-    overflow: visible;
-}
-#LinkedIn {
-    left: 0px;
-    top: 0px;
-    position: absolute;
-    overflow: visible;
-    width: 355px;
-    white-space: nowrap;
-    text-align: left;
-    font-family: Helvetica Neue;
-    font-style: normal;
-    font-weight: lighter;
-    font-size: 100px;
-    color: rgba(0,0,0,1);
-}
-#Resume {
-    left: 409px;
-    top: 0px;
-    position: absolute;
-    overflow: visible;
-    width: 368px;
-    white-space: nowrap;
-    text-align: left;
-    font-family: Helvetica Neue;
-    font-style: normal;
-    font-weight: lighter;
-    font-size: 100px;
-    color: rgba(0,0,0,1);
-}
-#Contact {
-    left: 831px;
-    top: 0px;
-    position: absolute;
-    overflow: visible;
-    width: 359px;
-    white-space: nowrap;
-    text-align: center;
-    font-family: Helvetica Neue;
-    font-style: normal;
-    font-weight: lighter;
-    font-size: 100px;
-    color: rgba(0,0,0,1);
 }
 #Landing_Page_Text {
     position: absolute;
@@ -88,21 +41,6 @@ body
     left: 298px;
     top: 850px;
     overflow: visible;
-}
-#Nicole_Fabbri {
-    left: 0px;
-    top: 332px;
-    position: absolute;
-    overflow: hidden;
-    width: 1346px;
-    height: 356px;
-    text-align: left;
-    font-family: SF Pro Display;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 300px;
-    color: rgba(0,0,0,1);
-    letter-spacing: -1px;
 }
 #a_UXUI_freelance_designer_with {
     left: 15px;
@@ -117,6 +55,21 @@ body
     font-weight: lighter;
     font-size: 150px;
     color: rgba(0,0,0,1);
+}
+#Nicole_Fabbri {
+    left: 0px;
+    top: 332px;
+    position: absolute;
+    overflow: visible;
+    width: 1346px;
+    height: 356px;
+    text-align: left;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 300px;
+    color: rgba(0,0,0,1);
+    letter-spacing: -30px;
 }
 #hi_Im {
     left: 0px;
@@ -134,7 +87,7 @@ body
 }
 #Header {
     position: absolute;
-    width: 3756px;
+    width: 3728px;
     height: 119px;
     left: 244px;
     top: 200px;
@@ -149,49 +102,564 @@ body
     width: 113px;
     white-space: nowrap;
     text-align: center;
-    font-family: SF Pro Display;
+    font-family: sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: lighter;
     font-size: 100px;
     color: rgba(0,0,0,1);
     letter-spacing: -1px;
 }
 #About {
     opacity: 0.601;
-    left: 3242px;
+    left: 3514px;
     top: 0px;
     position: absolute;
     overflow: visible;
     width: 215px;
     white-space: nowrap;
     text-align: center;
-    font-family: SF Pro Display;
+    font-family: sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: lighter;
     font-size: 100px;
     color: rgba(0,0,0,1);
     letter-spacing: -1px;
 }
 #Work_ {
-    left: 3556px;
+    left: 3214px;
     top: 0px;
     position: absolute;
     overflow: visible;
     width: 201px;
     white-space: nowrap;
     text-align: center;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+    letter-spacing: -1px;
+}
+#Skills_banner {
+    position: absolute;
+    width: 3517px;
+    height: 2782px;
+    left: 348px;
+    top: 2817px;
+    overflow: visible;
+}
+#AdobexD {
+    left: 2069px;
+    top: 1557px;
+    position: absolute;
+    overflow: visible;
+    width: 659px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#Figma {
+    left: 2069px;
+    top: 1788px;
+    position: absolute;
+    overflow: visible;
+    width: 659px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#InVision {
+    left: 2069px;
+    top: 2001px;
+    position: absolute;
+    overflow: visible;
+    width: 659px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#Miro {
+    left: 2069px;
+    top: 2194px;
+    position: absolute;
+    overflow: visible;
+    width: 659px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#HTMLCSS {
+    left: 589px;
+    top: 1576px;
+    position: absolute;
+    overflow: visible;
+    width: 659px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#Javascript {
+    left: 589px;
+    top: 1788px;
+    position: absolute;
+    overflow: visible;
+    width: 659px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#Python {
+    left: 589px;
+    top: 2001px;
+    position: absolute;
+    overflow: visible;
+    width: 659px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#Java {
+    left: 589px;
+    top: 2194px;
+    position: absolute;
+    overflow: visible;
+    width: 659px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#Value_Proposition {
+    left: 47px;
+    top: 570px;
+    position: absolute;
+    overflow: visible;
+    width: 759px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#Competitive_Analysis {
+    left: 0px;
+    top: 783px;
+    position: absolute;
+    overflow: visible;
+    width: 853px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#Product_Strategy {
+    left: 47px;
+    top: 995px;
+    position: absolute;
+    overflow: visible;
+    width: 698px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#C-sharp {
+    left: 610px;
+    top: 2663px;
+    position: absolute;
+    overflow: visible;
+    width: 659px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#User_Interviews {
+    left: 1333px;
+    top: 570px;
+    position: absolute;
+    overflow: visible;
+    width: 659px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#User_Acceptance_Testing {
+    left: 1152px;
+    top: 749px;
+    position: absolute;
+    overflow: visible;
+    width: 1022px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#C {
+    left: 589px;
+    top: 2416px;
+    position: absolute;
+    overflow: visible;
+    width: 659px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#Heuristic_Evaluations {
+    left: 1152px;
+    top: 961px;
+    position: absolute;
+    overflow: visible;
+    width: 1022px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#Methodologies {
+    left: 1474px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 483px;
+    height: 356px;
+    text-align: left;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 300px;
+    color: rgba(0,0,0,1);
+    letter-spacing: -1px;
+}
+#Tools {
+    left: 2330px;
+    top: 1344px;
+    position: absolute;
+    overflow: visible;
+    width: 183px;
+    white-space: nowrap;
+    text-align: left;
     font-family: SF Pro Display;
     font-style: normal;
     font-weight: normal;
     font-size: 100px;
     color: rgba(0,0,0,1);
-    letter-spacing: -1px;
+    letter-spacing: -0.5px;
+    text-decoration: underline;
 }
-
-a{
-    text-decoration: none;
+#Languages {
+    left: 742px;
+    top: 1344px;
+    position: absolute;
+    overflow: visible;
+    width: 395px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+    letter-spacing: -0.5px;
+    text-decoration: underline;
+}
+#Card_Sorting {
+    left: 2655px;
+    top: 536px;
+    position: absolute;
+    overflow: visible;
+    width: 659px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
     color: rgba(0,0,0,1);
 }
-
+#AB_Testing {
+    left: 2496px;
+    top: 962px;
+    position: absolute;
+    overflow: visible;
+    width: 1022px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#Guerilla_Testing {
+    left: 2473px;
+    top: 749px;
+    position: absolute;
+    overflow: visible;
+    width: 1022px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#TrueMart {
+    position: absolute;
+    width: 4267px;
+    height: 2304px;
+    left: -54px;
+    top: 6811px;
+    overflow: visible;
+}
+#Background_Color {
+    opacity: 0.343;
+    fill: rgba(194,228,158,1);
+}
+.Background_Color {
+    position: absolute;
+    overflow: visible;
+    width: 4267px;
+    height: 2304px;
+    left: 0px;
+    top: 0px;
+}
+#Photo_placeholder {
+    fill: rgba(170,53,53,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Photo_placeholder {
+    position: absolute;
+    overflow: visible;
+    width: 2309px;
+    height: 1667px;
+    left: 136px;
+    top: 483px;
+}
+#Description {
+    opacity: 0.651;
+    left: 2577px;
+    top: 1152px;
+    position: absolute;
+    overflow: visible;
+    width: 1519px;
+    height: 638px;
+    text-align: left;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#Title {
+    left: 1939px;
+    top: 522px;
+    position: absolute;
+    overflow: visible;
+    width: 1409px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 350px;
+    color: rgba(218,141,141,1);
+    letter-spacing: -0.5px;
+}
+#Case_Study_button {
+    position: absolute;
+    width: 1009px;
+    height: 303px;
+    left: 2843px;
+    top: 1847px;
+    overflow: visible;
+}
+#Rectangle_3 {
+    fill: rgba(255,255,255,1);
+}
+.Rectangle_3 {
+    position: absolute;
+    overflow: visible;
+    width: 1009px;
+    height: 303px;
+    left: 0px;
+    top: 0px;
+}
+#Case_Study {
+    left: 178px;
+    top: 92px;
+    position: absolute;
+    overflow: visible;
+    width: 655px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#US_Dept_Treasury {
+    position: absolute;
+    width: 4267px;
+    height: 2304px;
+    left: -54px;
+    top: 9838px;
+    overflow: visible;
+}
+#Background_color {
+    opacity: 0.343;
+    fill: rgba(194,228,158,1);
+}
+.Background_color {
+    position: absolute;
+    overflow: visible;
+    width: 4267px;
+    height: 2304px;
+    left: 0px;
+    top: 0px;
+}
+#Photo_placeholder_bn {
+    fill: rgba(170,53,53,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Photo_placeholder_bn {
+    position: absolute;
+    overflow: visible;
+    width: 2309px;
+    height: 1667px;
+    left: 1867px;
+    top: 483px;
+}
+#Description_bo {
+    opacity: 0.651;
+    left: 242px;
+    top: 1209px;
+    position: absolute;
+    overflow: visible;
+    width: 1519px;
+    height: 434px;
+    text-align: left;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#Title_bp {
+    left: 54px;
+    top: 647px;
+    position: absolute;
+    overflow: visible;
+    width: 4187px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 350px;
+    color: rgba(218,141,141,1);
+    letter-spacing: -0.5px;
+}
+#Case_Study_button_bq {
+    position: absolute;
+    width: 1009px;
+    height: 303px;
+    left: 337px;
+    top: 1914px;
+    overflow: visible;
+}
+#Rectangle_6 {
+    fill: rgba(255,255,255,1);
+}
+.Rectangle_6 {
+    position: absolute;
+    overflow: visible;
+    width: 1009px;
+    height: 303px;
+    left: 0px;
+    top: 0px;
+}
+#Case_Study_bs {
+    left: 178px;
+    top: 92px;
+    position: absolute;
+    overflow: visible;
+    width: 655px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
 
 

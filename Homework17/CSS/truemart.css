@@ -1,0 +1,765 @@
+/* This is so the screen (on Google) doesn't blow up*/
+body
+{
+    transform: scale(.28);
+    transform-origin: 0cm;
+}
+
+ /*this is so the links in the header don't look like links*/
+a{
+    text-decoration: none;
+    color: rgba(0,0,0,1);
+}
+
+.mediaViewInfo {
+    --web-view-name: Case Study;
+    --web-view-id: Case_Study;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+:root {
+    --web-view-ids: Case_Study;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+#Case_Study {
+    position: absolute;
+    width: 4213px;
+    height: 31211px;
+    background-color: rgba(255,255,255,1);
+    overflow: hidden;
+    --web-view-name: Case Study;
+    --web-view-id: Case_Study;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+#Pink_Background_j {
+    fill: url(#Pink_Background_j);
+}
+.Pink_Background_j {
+    overflow: visible;
+    position: absolute;
+    width: 4129px;
+    height: 20944.113px;
+    left: 42px;
+    top: 2685px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Red_Background {
+    fill: rgba(170,53,53,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Red_Background {
+    position: absolute;
+    overflow: visible;
+    width: 4132px;
+    height: 2685px;
+    left: 38px;
+    top: 0px;
+}
+#TrueMart_Mobile {
+    position: absolute;
+    width: 984px;
+    height: 1042px;
+    left: 2716px;
+    top: 897px;
+    overflow: visible;
+}
+#Title {
+    left: 112px;
+    top: 745px;
+    position: absolute;
+    overflow: visible;
+    width: 2223px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 500px;
+    color: rgba(255,255,255,1);
+    letter-spacing: -1px;
+}
+#Header {
+    position: absolute;
+    width: 3728px;
+    height: 119px;
+    left: 244px;
+    top: 200px;
+    overflow: visible;
+}
+#NF {
+    opacity: 0.601;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 113px;
+     
+    text-align: center;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+    letter-spacing: -1px;
+}
+#About {
+    left: 3514px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 215px;
+    /*white-space: nowrap;*/
+    text-align: center;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+    letter-spacing: -1px;
+}
+#Work_ {
+    left: 3214px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 201px;
+    /*white-space: nowrap;*/
+    text-align: center;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+    letter-spacing: -1px;
+}
+#Introduction {
+    position: absolute;
+    width: 3566px;
+    height: 6692px;
+    left: 220px;
+    top: 3091px;
+    overflow: visible;
+}
+#Solution_Text {
+    left: 56px;
+    top: 6293px;
+    position: absolute;
+    overflow: visible;
+    width: 3244px;
+    /*white-space: nowrap;*/
+    line-height: 140px;
+    margin-top: -20px;
+    text-align: left;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#Solution {
+    left: 56px;
+    top: 6072px;
+    position: absolute;
+    overflow: visible;
+    width: 736px;
+    /*white-space: nowrap;*/
+    line-height: 140px;
+    margin-top: -20px;
+    text-align: left;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#Problem_Text_ {
+    left: 56px;
+    top: 5421px;
+    position: absolute;
+    overflow: visible;
+    width: 3244px;
+    /*white-space: nowrap;*/
+    line-height: 140px;
+    margin-top: -20px;
+    text-align: left;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#Problem {
+    left: 56px;
+    top: 5200px;
+    position: absolute;
+    overflow: visible;
+    width: 736px;
+    /*white-space: nowrap;*/
+    line-height: 140px;
+    margin-top: -20px;
+    text-align: left;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#researcher_and_designer_-_user {
+    left: 181px;
+    top: 2155px;
+    position: absolute;
+    overflow: visible;
+    width: 1221px;
+    /*white-space: nowrap;*/
+    line-height: 140px;
+    margin-top: -20px;
+    text-align: left;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#My_Role {
+    left: 181px;
+    top: 1948px;
+    position: absolute;
+    overflow: visible;
+    width: 409px;
+    /*white-space: nowrap;*/
+    line-height: 140px;
+    margin-top: -20px;
+    text-align: left;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#researcher_and_designer_-_user_y {
+    left: 2324px;
+    top: 2095px;
+    position: absolute;
+    overflow: visible;
+    width: 1221px;
+    /*white-space: nowrap;*/
+    line-height: 140px;
+    margin-top: -20px;
+    text-align: left;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#Team {
+    left: 2324px;
+    top: 1888px;
+    position: absolute;
+    overflow: visible;
+    width: 409px;
+    /*white-space: nowrap;*/
+    line-height: 140px;
+    margin-top: -20px;
+    text-align: left;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#A_week_dedicated_to_user_resea {
+    left: 181px;
+    top: 3221px;
+    position: absolute;
+    overflow: visible;
+    width: 1812px;
+    /*white-space: nowrap;*/
+    line-height: 140px;
+    margin-top: -20px;
+    text-align: left;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#Project_Plan {
+    left: 181px;
+    top: 3014px;
+    position: absolute;
+    overflow: visible;
+    width: 736px;
+    /*white-space: nowrap;*/
+    line-height: 140px;
+    margin-top: -20px;
+    text-align: left;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#User_interviews__Surveys_Proto {
+    left: 2324px;
+    top: 3221px;
+    position: absolute;
+    overflow: visible;
+    width: 1221px;
+    /*white-space: nowrap;*/
+    line-height: 140px;
+    margin-top: -20px;
+    text-align: left;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#Methods {
+    left: 2324px;
+    top: 3014px;
+    position: absolute;
+    overflow: visible;
+    width: 736px;
+    /*white-space: nowrap;*/
+    line-height: 140px;
+    margin-top: -20px;
+    text-align: left;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#Tools_ {
+    position: absolute;
+    width: 1035px;
+    height: 1138px;
+    left: 2531px;
+    top: 0px;
+    overflow: visible;
+}
+#Tools {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 409px;
+    /*white-space: nowrap;*/
+    line-height: 140px;
+    margin-top: -20px;
+    text-align: left;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#Platform {
+    left: 4px;
+    top: 857px;
+    position: absolute;
+    overflow: visible;
+    width: 409px;
+    /*white-space: nowrap;*/
+    line-height: 140px;
+    margin-top: -20px;
+    text-align: left;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#iOS {
+    left: 4px;
+    top: 1019px;
+    position: absolute;
+    overflow: visible;
+    width: 205px;
+    /*white-space: nowrap;*/
+    line-height: 140px;
+    margin-top: -20px;
+    text-align: left;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#Adobe {
+    position: absolute;
+    width: 243px;
+    height: 245.194px;
+    left: 44px;
+    top: 222px;
+    overflow: visible;
+}
+#Figma {
+    position: absolute;
+    width: 253px;
+    height: 245px;
+    left: 408px;
+    top: 222px;
+    overflow: visible;
+}
+#Miro {
+    position: absolute;
+    width: 253px;
+    height: 254px;
+    left: 782px;
+    top: 222px;
+    overflow: visible;
+}
+#Design_Challenge {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 2201px;
+    /*white-space: nowrap;*/
+    line-height: 140px;
+    margin-top: -30px;
+    text-align: left;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    color: rgba(0,0,0,1);
+}
+#User_Research_Section_ {
+    position: absolute;
+    width: 4128px;
+    height: 4713px;
+    left: 0px;
+    top: 10303px;
+    overflow: visible;
+}
+#Survey_pics {
+    position: absolute;
+    width: 4042px;
+    height: 1973px;
+    left: 86px;
+    top: 2740px;
+    overflow: visible;
+}
+#Survey3 {
+    position: absolute;
+    width: 1345px;
+    height: 1973px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Survey2 {
+    position: absolute;
+    width: 1284px;
+    height: 1941px;
+    left: 1392px;
+    top: 16px;
+    overflow: visible;
+}
+#Survey1 {
+    position: absolute;
+    width: 1325px;
+    height: 1941px;
+    left: 2717px;
+    top: 16px;
+    overflow: visible;
+}
+#Section_Title_1 {
+    position: absolute;
+    width: 1501px;
+    height: 336px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Green_Tag {
+    opacity: 0.409;
+    fill: rgba(106,168,79,1);
+}
+.Green_Tag {
+    position: absolute;
+    overflow: visible;
+    width: 1501px;
+    height: 336px;
+    left: 0px;
+    top: 0px;
+}
+#Section_Title_ {
+    left: 276px;
+    top: 85px;
+    position: absolute;
+    overflow: visible;
+    width: 1010px;
+    /*white-space: nowrap;*/
+    text-align: left;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 150px;
+    color: rgba(255,255,255,1);
+}
+#Key_Findings_ {
+    position: absolute;
+    width: 3367px;
+    height: 1861px;
+    left: 346px;
+    top: 724px;
+    overflow: visible;
+}
+#Key_Findings {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 1864px;
+    /*white-space: nowrap;*/
+    text-align: left;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 300px;
+    color: rgba(0,0,0,1);
+}
+#Conducted_5_zoom_interviews_la {
+    left: 0px;
+    top: 543px;
+    position: absolute;
+    overflow: visible;
+    width: 2952px;
+    /*white-space: nowrap;*/
+    line-height: 140px;
+    margin-top: -20px;
+    text-align: left;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#An_instagram_survey_was_used_t {
+    left: 0px;
+    top: 1462px;
+    position: absolute;
+    overflow: visible;
+    width: 3368px;
+    /*white-space: nowrap;*/
+    line-height: 140px;
+    margin-top: -20px;
+    text-align: left;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#Organizing_Data_Found {
+    left: 238px;
+    top: 15536px;
+    position: absolute;
+    overflow: visible;
+    width: 3379px;
+    /*white-space: nowrap;*/
+    text-align: left;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 300px;
+    color: rgba(0,0,0,1);
+}
+#After_collecting_the_data_meth {
+    left: 220px;
+    top: 16094px;
+    position: absolute;
+    overflow: visible;
+    width: 2952px;
+    /*white-space: nowrap;*/
+    line-height: 140px;
+    margin-top: -20px;
+    text-align: left;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#Empathy_Map {
+    position: absolute;
+    width: 3075px;
+    height: 1673px;
+    left: 112px;
+    top: 16892px;
+    overflow: visible;
+}
+#User_Persona {
+    position: absolute;
+    width: 2781px;
+    height: 1847px;
+    left: 112px;
+    top: 21269px;
+    overflow: visible;
+}
+#Affinity_Diagram {
+    position: absolute;
+    width: 1995px;
+    height: 2036px;
+    left: 112px;
+    top: 18899px;
+    overflow: visible;
+}
+#Ideation_phase {
+    position: absolute;
+    width: 4034px;
+    height: 6567px;
+    left: 0px;
+    top: 23992px;
+    overflow: visible;
+}
+#Section_Title_2 {
+    position: absolute;
+    width: 1680px;
+    height: 336px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Green_Tag_bv {
+    opacity: 0.409;
+    fill: rgba(106,168,79,1);
+}
+.Green_Tag_bv {
+    position: absolute;
+    overflow: visible;
+    width: 1680px;
+    height: 336px;
+    left: 0px;
+    top: 0px;
+}
+#Section_Title__bw {
+    left: 455px;
+    top: 85px;
+    position: absolute;
+    overflow: visible;
+    width: 1010px;
+    /*white-space: nowrap;*/
+    text-align: left;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 150px;
+    color: rgba(255,255,255,1);
+}
+#Our_users_want_to_know_if_they {
+    left: 246px;
+    top: 2054px;
+    position: absolute;
+    overflow: visible;
+    width: 3609px;
+    /*white-space: nowrap;*/
+    line-height: 140px;
+    margin-top: -20px;
+    text-align: left;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#Who_is_the_user_and_whats_the_ {
+    left: 276px;
+    top: 566px;
+    position: absolute;
+    overflow: visible;
+    width: 3759px;
+    height: 330px;
+    text-align: left;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 200px;
+    color: rgba(0,0,0,1);
+}
+#Jim_time-crunched_and_budget-c {
+    left: 246px;
+    top: 3626px;
+    position: absolute;
+    overflow: visible;
+    width: 3621px;
+    /*white-space: nowrap;*/
+    line-height: 140px;
+    margin-top: -20px;
+    text-align: left;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+#Problem_statement {
+    left: 246px;
+    top: 3268px;
+    position: absolute;
+    overflow: visible;
+    width: 1552px;
+    /*white-space: nowrap;*/
+    text-align: left;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 200px;
+    color: rgba(0,0,0,1);
+}
+#Storyboard {
+    position: absolute;
+    width: 3352px;
+    height: 2007px;
+    left: 330px;
+    top: 4560px;
+    overflow: visible;
+}
+#User_Insight {
+    left: 276px;
+    top: 1696px;
+    position: absolute;
+    overflow: visible;
+    width: 1011px;
+    /*white-space: nowrap;*/
+    text-align: left;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 200px;
+    color: rgba(0,0,0,1);
+}
+#For_the_ideation_process_the_m {
+    left: 246px;
+    top: 949px;
+    position: absolute;
+    overflow: visible;
+    width: 3437px;
+    height: 627px;
+    line-height: 140px;
+    margin-top: -20px;
+    text-align: left;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgba(0,0,0,1);
+}
+
+

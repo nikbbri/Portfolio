@@ -1,208 +1,365 @@
-.mediaViewInfo {
-    --web-view-name: About_Me;
-    --web-view-id: About_Me;
-    --web-scale-on-resize: true;
-    --web-enable-deep-linking: true;
-}
-:root {
-    --web-view-ids: About_Me;
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    border: none;
-}
 
 body
 {
-    transform: scale(.45);
-    transform-origin: 5cm;
-}
-
-#About_Me {
-    position: absolute;
-    width: 2471px;
-    height: 3307px;
-    background-color: rgba(255,255,255,1);
-    overflow: hidden;
-    --web-view-name: About_Me;
-    --web-view-id: About_Me;
-    --web-scale-on-resize: true;
-    --web-enable-deep-linking: true;
-}
-#Footer {
-    position: absolute;
-    width: 868px;
-    height: 83px;
-    left: 1502px;
-    top: 3136px;
-    overflow: visible;
-}
-#Linkedin {
-    left: 0px;
-    top: 0px;
-    position: absolute;
-    overflow: visible;
-    width: 270px;
-    white-space: wrap;
-    text-align: left;
-    font-family: Helvetica Neue;
-    font-style: normal;
-    font-weight: lighter;
-    font-size: 70px;
-    color: rgba(0,0,0,1);
-}
-#Work_ {
-    left: 336px;
-    top: 0px;
-    position: absolute;
-    overflow: visible;
-    width: 175px;
-    white-space: nowrap;
-    text-align: left;
-    font-family: Helvetica Neue;
-    font-style: normal;
-    font-weight: lighter;
-    font-size: 70px;
-    color: rgba(0,0,0,1);
-}
-#Contact {
-    left: 510px;
-    top: 0px;
-    position: absolute;
-    overflow: visible;
-    width: 359px;
-    white-space: nowrap;
-    text-align: center;
-    font-family: Helvetica Neue;
-    font-style: normal;
-    font-weight: lighter;
-    font-size: 70px;
-    color: rgba(0,0,0,1);
-}
-#About_Body {
-    position: absolute;
-    width: 2204px;
-    height: 2416px;
-    left: 127px;
-    top: 460px;
-    overflow: visible;
-}
-#Headshot {
-    position: absolute;
-    width: 983px;
-    height: 586px;
-    left: 1221px;
-    top: 608px;
-    overflow: visible;
-}
-#Open_for_work_status {
-    left: 1300px;
-    top: 1278px;
-    position: absolute;
-    overflow: visible;
-    width: 835px;
-    white-space: nowrap;
-    text-align: left;
-    font-family: Helvetica Neue;
-    font-style: normal;
-    font-weight: lighter;
-    font-size: 50px;
-    color: rgba(113,150,96,0.694);
-}
-#About_info {
-    left: 23px;
-    top: 607px;
-    position: absolute;
-    overflow: visible;
-    width: 1087px;
-    white-space: wrap;
-    line-height: 70px;
-    margin-top: -10px;
-    text-align: left;
-    font-family: Helvetica Neue;
-    font-style: normal;
-    font-weight: lighter;
-    font-size: 50px;
-    color: rgba(0,0,0,1);
-    letter-spacing: 0.2px;
-}
-#Heading {
-    left: 0px;
-    top: 0px;
-    position: absolute;
-    overflow: hidden;
-    width: 1902px;
-    height: 210px;
-    text-align: left;
-    font-family: SF Pro Display;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 210px;
-    color: rgba(0,0,0,1);
-    letter-spacing: -1px;
-}
-#Header {
-    position: absolute;
-    width: 2200px;
-    height: 119px;
-    left: 100px;
-    top: 200px;
-    overflow: visible;
-}
-#NF {
-    opacity: 0.601;
-    left: 0px;
-    top: 0px;
-    position: absolute;
-    overflow: visible;
-    width: 113px;
-    white-space: nowrap;
-    text-align: center;
-    font-family: SF Pro Display;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 100px;
-    color: rgba(0,0,0,1);
-    letter-spacing: -1px;
-}
-#Work {
-    opacity: 0.601;
-    left: 2010px;
-    top: 0px;
-    position: absolute;
-    overflow: visible;
-    width: 191px;
-    white-space: nowrap;
-    text-align: center;
-    font-family: SF Pro Display;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 100px;
-    color: rgba(0,0,0,1);
-    letter-spacing: -1px;
+    transform: scale(.30);
+    transform-origin: 0cm;
+}    
     
-}
+    .mediaViewInfo {
+		--web-view-name: About_me;
+		--web-view-id: About_me;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: About_me;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#About_me {
+		position: absolute;
+		width: 4213px;
+		height: 13220px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: About_me;
+		--web-view-id: About_me;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	#Green_background {
+		fill: rgba(231,242,220,1);
+	}
+	.Green_background {
+		position: absolute;
+		overflow: visible;
+		width: 4284px;
+		height: 13486px;
+		left: -71px;
+		top: 0px;
+	}
+	#Header {
+		position: absolute;
+		width: 3778px;
+		height: 119px;
+		left: 244px;
+		top: 200px;
+		overflow: visible;
+	}
+	#NF {
+		opacity: 0.601;
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 113px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: sans-serif;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 100px;
+		color: rgba(0,0,0,1);
+		letter-spacing: -1px;
+	}
+	#About {
+		left: 3264px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 215px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: sans-serif;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 100px;
+		color: rgba(0,0,0,1);
+		letter-spacing: -1px;
+	}
+	#Work_ {
+		opacity: 0.595;
+		left: 3578px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 201px;
+		white-space: nowrap;
+		text-align: center;
+		font-family:sans-serif;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 100px;
+		color: rgba(0,0,0,1);
+		letter-spacing: -1px;
+	}
+	#Section {
+		position: absolute;
+		width: 2086px;
+		height: 5474px;
+		left: 244px;
+		top: 885px;
+		overflow: visible;
+	}
+	#About_info {
+		left: 0px;
+		top: 947px;
+		position: absolute;
+		overflow: visible;
+		width: 2087px;
+		height: 4527px;
+		line-height: 150px;
+		margin-top: -25px;
+		text-align: left;
+		font-family: SF Pro Rounded;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 100px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 0.2px;
+	}
+	#Heading {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 2087px;
+		height: 412px;
+		text-align: center;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 400px;
+		color: rgba(0,0,0,1);
+		letter-spacing: -35px;
+	}
+	#headshot {
+		position: absolute;
+		
+		height: 2000px;
+		left: 2671px;
+		top: 1952px;
+		overflow: visible;
+	}
+	#nicolefabbrigmaillcom_ {
+		left: 2801px;
+		top: 3454px;
+		position: absolute;
+		overflow: visible;
+		width: 1149px;
+		height: 168px;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 100px;
+		color: rgba(112,112,112,1);
+	}
+	#Resume {
+		left: 3538px;
+		top: 3713px;
+		position: absolute;
+		overflow: visible;
+		width: 412px;
+		height: 168px;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 100px;
+		color: rgba(112,112,112,1);
+	}
+	#LinkedIn {
+		left: 3538px;
+		top: 3972px;
+		position: absolute;
+		overflow: visible;
+		width: 412px;
+		height: 168px;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 100px;
+		color: rgba(112,112,112,1);
+	}
+	#Whats_New_Title {
+		left: 2295px;
+		top: 6235px;
+		position: absolute;
+		overflow: visible;
+		width: 1712px;
+		height: 412px;
+		text-align: right;
+		font-family: SF Pro Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 400px;
+		color: rgba(0,0,0,1);
+		letter-spacing: -30px;
+	}
+	#Spontaneous_road_trips__Shooti {
+		left: 2504px;
+		top: 7587px;
+		position: absolute;
+		overflow: visible;
+		width: 1503px;
+		white-space: nowrap;
+		line-height: 150px;
+		margin-top: -25px;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 100px;
+		color: rgba(0,0,0,1);
+	}
+	#NYC {
+		position: absolute;
+		width: 2051px;
+		height: 1243px;
+		left: 244px;
+		top: 11702px;
+		overflow: visible;
+	}
+	#CO1 {
+		position: absolute;
+		width: 2051px;
+		height: 1243px;
+		left: 244px;
+		top: 7016px;
+		overflow: visible;
+	}
+	#NIC {
+		position: absolute;
+		width: 2057px;
+		height: 1537px;
+		left: 1949px;
+		top: 10014px;
+		overflow: visible;
+	}
+	#CO2 {
+		position: absolute;
+		width: 1863px;
+		height: 1243px;
+		left: 244px;
+		top: 8553px;
+		overflow: visible;
+	}
+	#CO3 {
+		position: absolute;
+		width: 1546px;
+		height: 1243px;
+		left: 2403px;
+		top: 8553px;
+		overflow: visible;
+	}
+	#Captions_ {
+		position: absolute;
+		width: 3762px;
+		height: 4760px;
+		left: 244px;
+		top: 8287px;
+		overflow: visible;
+	}
+	#Colorado {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 223px;
+		white-space: nowrap;
+		line-height: 150px;
+		margin-top: -50px;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 50px;
+		color: rgba(0,0,0,1);
+	}
+	#Granada_Nicaragua {
+		left: 3305px;
+		top: 3309px;
+		position: absolute;
+		overflow: visible;
+		width: 458px;
+		white-space: nowrap;
+		line-height: 150px;
+		margin-top: -50px;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 50px;
+		color: rgba(0,0,0,1);
+	}
+	#New_York_City_New_York {
+		left: 1431px;
+		top: 4701px;
+		position: absolute;
+		overflow: visible;
+		width: 558px;
+		white-space: nowrap;
+		line-height: 150px;
+		margin-top: -50px;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 50px;
+		color: rgba(0,0,0,1);
+	}
+	#The_Dutch_House_Chatter__The_D {
+		left: 173px;
+		top: 10700px;
+		position: absolute;
+		overflow: visible;
+		width: 1503px;
+		white-space: nowrap;
+		line-height: 150px;
+		margin-top: -25px;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 100px;
+		color: rgba(0,0,0,1);
+	}
+	#hobbies_at_the_moment {
+		left: 2504px;
+		top: 7081px;
+		position: absolute;
+		overflow: visible;
+		width: 1410px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 200px;
+		color: rgba(253,135,135,1);
+	}
+	#books_Im_reading_this_month {
+		left: 173px;
+		top: 10169px;
+		position: absolute;
+		overflow: visible;
+		width: 1695px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 200px;
+		color: rgba(253,135,135,1);
+	}
 
-a{
-    text-decoration: none;
-    color: rgba(0,0,0,1);
-}
-#About {
-    left: 1686px;
-    top: 0px;
-    position: absolute;
-    overflow: visible;
-    width: 215px;
-    white-space: nowrap;
-    text-align: center;
-    font-family: SF Pro Display;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 100px;
-    color: rgba(0,0,0,1);
-    letter-spacing: -1px;
-}
-
-
+    a{
+        text-decoration: none;
+        color: rgba(0,0,0,1);
+    }
